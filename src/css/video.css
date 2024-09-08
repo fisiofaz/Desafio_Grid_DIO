@@ -1,17 +1,17 @@
 .video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
     align-items: center;
     justify-items: center;
-    background-color: var(--color-bg);
+    grid-template-rows: auto;
+    gap: 3rem;
 }
 
 .videoContainer {
     display: flex;
     flex-direction: column;
     width: 28.2rem;
-    height: 26.229rem;
+    height: 23.229rem;
 }
 
 .videoContainer img {

@@ -1,0 +1,24 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bt);
+    gap: 3rem;
+    width: 30.8rem;
+    height: 96.8rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    
+}
+
+.sidebarMenu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;   
+    cursor: pointer;
+}
+
+.sidebarMenu h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.641rem;
+}
