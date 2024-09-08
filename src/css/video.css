@@ -1,4 +1,44 @@
 .video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 28.2rem;
+    height: 26.229rem;
+}
+
+.videoContainer img {
+    width: 25rem;
+    height: 15rem;
+}
+
+.videoContainer-dados {
+    display: flex;
+    width: 24.9rem;
+    height: 7.4rem;
+    gap: 1rem;
+}
+
+.videoContainer-dados .videoContainer-dados-img {
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.videoContainer-dados-conteudo h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.641rem;
+    margin: 1rem 0;
+}
+
+.videoContainer-dados-conteudo p {
+    font-size: 1.2rem;
+    line-height: 1.406rem;
+    font-weight: 400;
 }
